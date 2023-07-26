@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABC App | Signup</title>
+</head>
+<body>
+  <h1>Sign up</h1>
+  <form method="POST" action="/api/signup">
+    <input type="text" placeholder="Enter your first name" name="firstName"><br><br>
+    <input type="text" placeholder="Enter your last name" name="lastName"><br><br>
+    <input type="email" placeholder="Enter your email" name="email"><br><br>
+    <input type="password" placeholder="Enter password" name="password"><br><br>
+    Admin:
+    <input type="radio" value="true" name="isAdmin">Yes
+    <input type="radio" value="false" name="isAdmin">No<br><br>
+    <button>Sign Up</button>
+  </form>
+</body>
+</html>
